@@ -1,0 +1,211 @@
+body{
+    /* padding: 3px 8px; */
+    font-family: "gilroy-regular", sans-serif;
+    
+}
+
+ul,li {
+    padding: 0;
+    margin: 0;
+}
+.first-section{
+    width: 100%;
+    background-color:#00793F;
+    /* height: 70px; */
+
+}
+.header{
+    width: 100%;
+    /* border: 1px solid; */
+    /* height: 60px; */
+    display: flex;
+    padding: 13px 0 ;
+    justify-content: center;
+    
+
+    
+    /* box-sizing: border-box; */
+}
+.header .img{
+    width: 80px;
+    /* vertical-align: top; */
+
+    /* background-color: aliceblue; */
+    display: flex;
+justify-content: center;
+align-items: center;
+
+    /* vertical-align: top; */
+    /* height: 40px; */
+    /* vertical-align:center; */
+    /* margin-left: 100px; */
+    /* margin-right: 0px; */
+margin-right: 100px;
+    
+}
+.header .img img{
+    width: 100%;
+}
+.header .ul-header{
+
+    /* background-color: bisque; */
+    margin-left: 10px;
+
+    /* margin: 5px 0; */
+
+}
+.ul-header ul{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+.ul-header ul li {
+    list-style: none;
+    
+    padding: 10px 15px;
+    font-size: 16px;
+    color: aliceblue;
+    font-family: gilory-regular, sans-serif;
+    
+
+}
+.second-sect{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 520px;
+ display: flex;
+}
+.second-sect .text{
+    background-color: #006242;
+    width: 50%;
+    box-sizing: border-box;
+    
+
+    height: 100%;
+    
+    
+}
+.second-sect .img{
+    width:49%;
+    
+    box-sizing: border-box;
+    
+    
+}
+.second-sect .img img{
+    width: 100%;}
+
+    
+/* css of text */
+.text .short {
+    margin-left: 50px;
+    color: white;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.short h5{
+    /* font-size: 46px; */
+    color: white;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.short p{
+    font-size: 24px;
+}
+.short span{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+.short h1{
+    margin: 0;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 400;
+
+}
+/* secction-third */
+.section-third{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 600px; 
+    text-align: center;
+    
+}
+.section-third h4 {
+    color: #006242;
+    font-size: 48px;
+
+}
+.section-third p{
+    /* font-size: 9px; */
+    line-height: 14px;
+}
+.section-third sup{
+    /* margin-top: 500px; */
+}
+/* sect-four */
+.sect-four{
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+    /* height: 300px; */
+    display: flex;
+    flex: wrap;
+}
+.sect-four .card{
+    border: 1px transparent;
+    width: 900px;
+    vertical-align: top;
+    /* height: 250px; */
+
+    /* display: inline-block; */
+    /* text-align: center; */
+    margin: 30px;
+
+}
+.card .img{
+    /* border: 1px solid; */
+    width: 270px;
+    display: inline-block;
+    /* height: 120px; */
+}
+.card .img img{
+    width: 100%;
+}
+.card .text h5{
+  color: #006242;
+  /* font-size: medium; */
+
+  margin: 0;
+
+}
+.card .text p{
+   /* font-size: 9px; */
+   /* line-height: 13px; */
+   /* font-weight: 100; */
+   margin-top: 8%;
+}
+/* section five */
+.sect-five{
+    width: 100%;
+    height: 300px;
+
+}
+.sect-five .img{
+    width:100%;
+    margin-top: 10px;
+
+}
+.sect-five .img img{
+    width: 100%;
+}
+.sect-five .h2-text{
+    margin-top: 55px;
+
+}
+.sect-five .h2-text h2{
+    text-align: center;
+    color: #006242;
+    font-weight: 500;
+}
